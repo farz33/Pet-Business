@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+     
+      padding: 50px;
+    }
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+    }
+    .btn-submit {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .btn-submit:hover {
+      background-color: #0056b3;
+    }
+	
+	
+	.bg {
+  /* The image used */
+  background-image: url("animal.jpg");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+            
+            padding: 20px;
+            text-align: center;
+            color: #333; /* Dark text color for contrast */
+        }
+
+        footer h2 {
+            color: #007bff; /* Blue color for the heading */
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #007bff; /* Blue color for links */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+
+  </style>
+</head>
+<body>
+
+<div class="bg"></div>
+   
+   <br><br><br>
+  <div class="container">
+    <div class="contact-form">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-submit btn-block">Submit</button>
+      </form>
+    </div>
+	
+	<br><br><br><br><br>
+	<footer>
+  <div>
+    <h2>Furry Tails</h2>
+    <p>Providing the best care for your furry friends!</p>
+    <p>&copy; 2024 Furry Tails. All rights reserved.</p>
+  </div>
+  <div>
+    <p>Follow us on:</p>
+    <a href="https://facebook.com/furrytails" target="_blank">Facebook</a> |
+    <a href="https://twitter.com/furrytails" target="_blank">Twitter</a> |
+    <a href="https://instagram.com/furrytails" target="_blank">Instagram</a>
+  </div>
+  <div>
+    <p><a href="mailto:info@furrytails.com">Contact Us</a></p>
+  </div>
+</footer>
+	
+	
+	
+	</body>
+	
+	</html>

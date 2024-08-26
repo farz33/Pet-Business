@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("ap.jpg");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.appointment-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.appointment-form h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.appointment-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.appointment-form input,
+.appointment-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.appointment-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.appointment-form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+footer {
+            
+            padding: 20px;
+            text-align: center;
+            color: #333; /* Dark text color for contrast */
+        }
+
+        footer h2 {
+            color: #007bff; /* Blue color for the heading */
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #007bff; /* Blue color for links */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+ <br><br>
+ <section class="appointment-form">
+        <h1>Book an Appointment</h1>
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Preferred Time</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="message">Additional Notes</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit Appointment</button>
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+		<footer>
+  <div>
+    <h2>Furry Tails</h2>
+    <p>Providing the best care for your furry friends!</p>
+    <p>&copy; 2024 Furry Tails. All rights reserved.</p>
+  </div>
+  <div>
+    <p>Follow us on:</p>
+    <a href="https://facebook.com/furrytails" target="_blank">Facebook</a> |
+    <a href="https://twitter.com/furrytails" target="_blank">Twitter</a> |
+    <a href="https://instagram.com/furrytails" target="_blank">Instagram</a>
+  </div>
+  <div>
+    <p><a href="mailto:info@furrytails.com">Contact Us</a></p>
+  </div>
+</footer>
+
+</body>
+
+</html>

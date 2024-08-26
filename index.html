@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+   
+	
+	<style>
+	
+	 body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+	
+			
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: #FFFFFF;
+            padding: 10px 20px;
+            color: black;
+        }
+        .navbar .logo {
+            flex: 1;
+        }
+        .navbar .logo img {
+            max-height: 200px; /* Adjust the logo size as needed */
+        }
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-links a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 16px;
+            transition: background-color 0.3s;
+        }
+        .navbar .nav-links a:hover {
+            background-color: #2c67f2;
+            border-radius: 4px;
+        }
+	
+
+.cover-image {
+    background-image: url('dog.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    position: relative;
+    color: white; /* Text color */
+    text-align: left; /* Align text */
+    padding: 20px; /* Space around the text */
+}
+
+.cover-image h1 {
+    font-size: 3em;
+    margin: 0;
+    color: black; /* Ensure text color is black */
+}
+
+.button {
+  background-color: #2c67f2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007BFF; /* Button color */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.contact-button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+		
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.text-and-image {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+	
+	
+}
+
+.text {
+    max-width: 60%;
+}
+
+.text h1 {
+    margin: 0 0 10px;
+    font-size: 48px;
+}
+
+.text p {
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.learn-more-button:hover {
+    background-color: #0056b3;
+}
+
+.image {
+    max-width: 40%;
+    height: auto;
+    margin-left: 300px;
+}
+ 
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.services h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.service {
+    flex: 1 1 20%;
+    max-width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+.service p {
+    font-size: 1em;
+    color: #555;
+}
+
+
+.price {
+    font-size: 3.5em; /* Increase the font size */
+    color: #007bff; /* Adjust color if needed */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+    .subscription-plans {
+	
+             
+            gap: 30px;
+			justify-content: center;
+			text-align: center
+			
+        }
+        .plan {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 30px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+			display: inline-block;
+        }
+        .plan h2 {
+            margin: 0 0 10px;
+            font-size: 24px;
+        }
+        .plan p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .plan .price {
+            font-size: 28px;
+            color: #2c3e50;
+            margin: 10px 0;
+        }
+        .plan button {
+            background-color: #2c67f2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .plan button:hover {
+            background-color: #0056b3;
+        }
+
+         h3 {
+    font-size: 3em; /* Larger title size */
+    margin-bottom: 15px; /* Space between title and plans */
+	text-align: center;
+}
+
+        
+.testimonial {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 100px; /* Ensure space for footer */
+}
+
+.testimonial-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.testimonial-name {
+    font-weight: bold;
+}
+
+  
+
+footer {
+            
+            padding: 20px;
+            text-align: center;
+            color: #333; /* Dark text color for contrast */
+        }
+
+        footer h2 {
+            color: #007bff; /* Blue color for the heading */
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #007bff; /* Blue color for links */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+
+	
+
+</style>
+	
+	
+	
+</head>
+
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="pet logo.png" alt="Logo"> <!-- Replace with your logo image path -->
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="service.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="appointment.html">Appointment</a>
+        </div>
+    </div>
+	
+	<div class="cover-image">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+        <h1>Ensuring your pets enjoy <br>
+every moment away from home</h1>
+<br>
+<br>
+<br>
+
+        
+		
+		  <a href="contact.html" class="learn-more-button">Contact Us</a>
+    </div>
+	
+ <div class="text-and-image">
+        <div class="text">
+            <h1>Why Choose Us</h1>
+			
+			<br> 
+            
+			<p>
+			
+			    Furry Tails for a pet care experience that combines expertise, love, and attention to detail, <br>
+			ensuring peace of mind for you and a joyful experience for your pet.  <br>
+			We are dedicated to providing top-notch  pet care services tailored <br>to meet the unique needs of your furry friends. 
+			<br><br>
+Our team of experienced and compassionate professionals goes above and beyond <br> to ensure the health, happiness, 
+and well-being of every pet in our care. <br> 
+			
+			
+			
+			
+			</p>
+            <a href="about.html" class="learn-more-button">Learn More</a>
+        </div>
+        <img src="cat.jpg" alt="Description of Image" class="image">
+    </div>
+
+
+    <br><br><br>
+    <section class="services">
+        <h1>Our Services</h1>
+        <div class="service">
+            <img src="grooming.jpg" alt="Pet Grooming">
+            <h2>Pet Grooming</h2>
+            <p>Professional grooming services to keep your pet looking their best</p>
+			<p class="price">$55</p>
+        </div>
+        <div class="service">
+            <img src="vet.jpg" alt="Veterinary Care">
+            <h2>Veterinary Care</h2>
+            <p>Comprehensive veterinary services to ensure your pet's health and well-being</p>
+			<p class="price">$65</p>
+        </div>
+        <div class="service">
+            <img src="day.jpg" alt="Daycare">
+            <h2>Daycare</h2>
+            <p>Safe and fun daycare options for your pet when you're away</p>
+			<p class="price">$55</p>
+        </div>
+        <div class="service">
+            <img src="training.jpg" alt="Training">
+            <h2>Training</h2>
+            <p>Expert training services to help your pet learn and grow</p>
+			<p class="price">$75</p>
+        </div>
+    </section>
+	
+	
+	<br><br>
+	 <h3>Our Affordable Plans</h3>
+	 <br><br>
+	 <div class="subscription-plans">
+        <div class="plan">
+            <h2>Basic Plan</h2>
+            <p class="price">$55/month</p>
+            <p>Includes Pet Grooming</p>
+            <button>Subscribe Now</button>
+        </div>
+        <div class="plan">
+            <h2>Standard Plan</h2>
+            <p class="price">$170/month</p>
+            <p>Pet Grooming,Veterinary care,Daycare</p>
+            <button>Subscribe Now</button>
+        </div>
+        <div class="plan">
+            <h2>Premium Plan</h2>
+            <p class="price">$245/month</p>
+            <p>Pet Grooming,Veterinary care,Daycare, Training</p>
+            <button>Subscribe Now</button>
+        </div>
+		
+	
+
+	   <br><br><br><br><br><br>
+	   <h1 style="font-size: 3em;">Testimonial</h1>
+	 <section class="testimonial">
+        <div class="testimonial-item">
+            <img src="user.png" alt="Testimonial 1" class="testimonial-img">
+            <p class="testimonial-text">"Great service! Highly recommend this company for all your pet care needs."</p>
+            <p class="testimonial-name">Sarah</p>
+        </div>
+        <div class="testimonial-item">
+            <img src="boy.png" alt="Testimonial 2" class="testimonial-img">
+            <p class="testimonial-text">"Fantastic experience! My pet has never been happier."</p>
+            <p class="testimonial-name">William</p>
+        </div>
+    </section>
+	
+	
+	<br><br>
+	<footer>
+  <div>
+    <h2>Furry Tails</h2>
+    <p>Providing the best care for your furry friends!</p>
+    <p>&copy; 2024 Furry Tails. All rights reserved.</p>
+  </div>
+  <div>
+    <p>Follow us on:</p>
+    <a href="https://facebook.com/furrytails" target="_blank">Facebook</a> |
+    <a href="https://twitter.com/furrytails" target="_blank">Twitter</a> |
+    <a href="https://instagram.com/furrytails" target="_blank">Instagram</a>
+  </div>
+  <div>
+    <p><a href="mailto:info@furrytails.com">Contact Us</a></p>
+  </div>
+</footer>
+
+
+	
+	
+
+</body>
+</html>
